@@ -21,8 +21,9 @@ static int GetAndroidApiLevel() {
 void hack_start(const char *game_data_dir) {
     bool load = false;
     sleep(10);
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 1000; i++) {
         void *handle = xdl_open("libil2cpp.so", 0);
+        LOGI("handle:%X",handle);
         if (handle) {
             load = true;
             il2cpp_api_init(handle);
