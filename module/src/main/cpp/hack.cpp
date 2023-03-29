@@ -22,7 +22,6 @@ void hack_start(const char *game_data_dir) {
     bool load = false;
     for (int i = 0; i < 1000; i++) {
         void *handle = xdl_open("libil2cpp.so", 0);
-        LOGI("handle:%X",handle);
         if (handle) {
             load = true;
             il2cpp_api_init(handle);
@@ -33,13 +32,10 @@ void hack_start(const char *game_data_dir) {
         }
     }
     if (!load) {
-        LOGI("libil2cpp.so not found in thread %d", gettid());
     }
 }
 
 void hack_prepare(const char *game_data_dir) {
-    LOGI("hack thread: %d", gettid());
     int api_level = GetAndroidApiLevel();
-    LOGI("api level: %d", api_level);
     hack_start(game_data_dir);
 }
