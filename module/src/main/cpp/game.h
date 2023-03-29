@@ -5,6 +5,6 @@
 #ifndef ZYGISK_IL2CPPDUMPER_GAME_H
 #define ZYGISK_IL2CPPDUMPER_GAME_H
 
-#define GamePackageName "com.gaijin.xom"
+#define GamePackageName "com.nextjoy.wjmt.aligames"
 
 #endif //ZYGISK_IL2CPPDUMPER_GAME_H
