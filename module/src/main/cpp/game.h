@@ -5,6 +5,6 @@
 #ifndef ZYGISK_IL2CPPDUMPER_GAME_H
 #define ZYGISK_IL2CPPDUMPER_GAME_H
 
-#define GamePackageName "com.nextjoy.wjmt.aligames"
+#define GamePackageName "com.kiloo.subwaysurf"
 
 #endif //ZYGISK_IL2CPPDUMPER_GAME_H
