@@ -5,6 +5,6 @@
 #ifndef ZYGISK_IL2CPPDUMPER_GAME_H
 #define ZYGISK_IL2CPPDUMPER_GAME_H
 
-#define GamePackageName "endless.nightmare.spectre.curse.horror.scary.free.cn.android"
+#define GamePackageName "com.ahlh.swyyz.aligames"
 
 #endif //ZYGISK_IL2CPPDUMPER_GAME_H
